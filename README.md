@@ -188,6 +188,7 @@ pip install -r requirements.txt
 Create `.env` file:
 
 ```env
+in config file enter you API of groq
 GROQ_API_KEY=your_api_key_here
 MODEL_NAME=llama-3.1-8b-instant
 ```
