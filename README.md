@@ -191,6 +191,9 @@ Create `.env` file:
 in config file enter you API of groq
 GROQ_API_KEY=your_api_key_here
 MODEL_NAME=llama-3.1-8b-instant
+
+
+For quick without more waiting stall detection demo edit in agents\stall_detector.py   def detect_stalls(threshold_seconds: int = 86400) -> List[Dict[str, Any]]:  enter value likes 8640
 ```
 
 ---
