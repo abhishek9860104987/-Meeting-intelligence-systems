@@ -127,11 +127,11 @@ if project_name and not df.empty:
 
     def style_status(val):
         if val == "CONFIRMED":
-            return "color: green"
+            return "color: yellow"
         elif val == "NEEDS_CLARIFICATION":
             return "color: red"
         elif val == "AUTO_ASSIGNED":
-            return "color: yellow"
+            return "color: pink"
         return ""
 
     styled_df = df.style.map(style_status, subset=["status"])

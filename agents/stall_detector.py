@@ -6,7 +6,7 @@ from database import get_all_tasks
 # ===============================
 # 🔥 MAIN FUNCTION (SECONDS BASED)
 # ===============================
-def detect_stalls(threshold_seconds: int = 86400) -> List[Dict[str, Any]]:
+def detect_stalls(threshold_seconds: int = 8640) -> List[Dict[str, Any]]:
 
     stalled_tasks = []
     now = datetime.now()
