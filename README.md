@@ -209,13 +209,19 @@ streamlit run app.py
 ## 🧪 Sample Transcript
 
 ```text
-Abhishek will develop authentication system
-Rohit will design database schema
-Sneha will fix payment integration bug
-Aman will deploy backend service
-Priya will test application
-John should review everything before demo
-Team needs to improve UI performance
+John will fix the login bug by  2026-04-01
+Sarah will complete the API integration by 2026-04-02.
+
+Mike will review database queries by 2026-04-03.
+Priya will check UI design by 2026-04-03.
+
+Alex will deploy backend by 2026-04-04.
+Rahul will handle server setup by 2026-04-04.
+
+Someone should test everything before 2026-04-05.
+Team needs to improve system performance by 2026-04-06.
+Complete the documentation by 2026-04-07.
+Check security module by 2026-04-08.
 ```
 
 ---
